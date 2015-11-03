@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><MessageBroker name="SVV">
+  <XSDCollection href="platform:/resource/SVV/MepsDataSchema.dfdl.xsd" prefix="" targetNamespace="http://example.com">
+    <import name="IBMdefined/CommaSeparatedFormat.xsd" targetNamespace="http://www.ibm.com/dfdl/CommaSeparatedFormat"/>
+    <element href="platform:/resource/SVV/MepsDataSchema.dfdl.xsd#//MepsDataSchema;XSDElementDeclaration" name="MepsDataSchema"/>
+  </XSDCollection>
+  <XSDCollection href="platform:/resource/SVV/fixedLengthSchema.dfdl.xsd" prefix="" targetNamespace="http://example.com">
+    <import name="IBMdefined/RecordFixLengthFieldFormat.xsd" targetNamespace="http://www.ibm.com/dfdl/RecordFixLengthFieldFormat"/>
+    <element href="platform:/resource/SVV/fixedLengthSchema.dfdl.xsd#//address;XSDElementDeclaration" name="address"/>
+  </XSDCollection>
+</MessageBroker>

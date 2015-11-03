@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://example.com" xmlns="http://example.com" xmlns:dfdl="http://www.ogf.org/dfdl/dfdl-1.0/" xmlns:ex="http://example.com" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:ibmDfdlExtn="http://www.ibm.com/dfdl/extensions" xmlns:ref="http://www.ibm.com/dfdl/RecordFixLengthFieldFormat" xmlns:tns="http://example.com" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  
+      <xs:import namespace="http://www.ibm.com/dfdl/RecordFixLengthFieldFormat" schemaLocation="IBMdefined/RecordFixLengthFieldFormat.xsd"/>
+    <xs:annotation>
+  	<xs:appinfo source="http://www.org/dfdl/">
+  		<dfdl:format encoding="ASCII" initiator="" lengthKind="explicit" lengthUnits="bytes" ref="ex:daffodilTest1" representation="text" terminator=""/>	
+  	</xs:appinfo>
+  <xs:appinfo source="http://www.ogf.org/dfdl/">
+      <dfdl:format alignment="1" alignmentUnits="bytes" byteOrder="bigEndian" encoding="UTF-8" fillByte="1" ignoreCase="yes" initiatedContent="no" representation="text" sequenceKind="ordered"/>
+    </xs:appinfo>
+  </xs:annotation>
+  
+<xs:element dfdl:emptyValueDelimiterPolicy="none" dfdl:initiator="" dfdl:leadingSkip="0" dfdl:lengthKind="implicit" dfdl:ref="ref:RecordFixLengthFieldsFormat" dfdl:terminator="" dfdl:trailingSkip="0" name="address">
+	<xs:complexType>
+		<xs:sequence dfdl:initiator="" dfdl:leadingSkip="0" dfdl:ref="ref:RecordFixLengthFieldsFormat" dfdl:separator="" dfdl:sequenceKind="ordered" dfdl:terminator="" dfdl:trailingSkip="0">
+		
+			<xs:element default="" dfdl:emptyValueDelimiterPolicy="none" dfdl:escapeSchemeRef="ref:RecordEscapeScheme" dfdl:floating="no" dfdl:initiator="" dfdl:length="6" dfdl:lengthKind="explicit" dfdl:lengthUnits="characters" dfdl:nilValueDelimiterPolicy="none" dfdl:outputNewLine="%CR;" dfdl:ref="ref:RecordFixLengthFieldsFormat" dfdl:terminator="" dfdl:textPadKind="none" dfdl:textStringJustification="left" dfdl:textTrimKind="none" dfdl:truncateSpecifiedLengthString="no" name="housenumber" type="xs:string"/>
+				 
+			<xs:element default="" dfdl:emptyValueDelimiterPolicy="none" dfdl:escapeSchemeRef="" dfdl:floating="no" dfdl:initiator="" dfdl:leadingSkip="0" dfdl:length="15" dfdl:lengthKind="explicit" dfdl:lengthUnits="characters" dfdl:nilValueDelimiterPolicy="none" dfdl:outputNewLine="%CR;" dfdl:ref="ref:RecordFixLengthFieldsFormat" dfdl:terminator="" dfdl:textPadKind="none" dfdl:textStringJustification="left" dfdl:textTrimKind="none" dfdl:trailingSkip="0" dfdl:truncateSpecifiedLengthString="no" name="street" type="xs:string"/>
+				
+			<xs:element dfdl:emptyValueDelimiterPolicy="none" dfdl:floating="no" dfdl:initiator="" dfdl:leadingSkip="0" dfdl:length="9" dfdl:lengthKind="explicit" dfdl:lengthUnits="characters" dfdl:ref="ref:RecordFixLengthFieldsFormat" dfdl:terminator="" dfdl:textPadKind="none" dfdl:textTrimKind="none" dfdl:trailingSkip="0" dfdl:truncateSpecifiedLengthString="no" fixed="9" name="city" type="xs:string"/>
+				
+			<xs:element dfdl:length="2" dfdl:lengthUnits="characters" dfdl:ref="ref:RecordFixLengthFieldsFormat" dfdl:textTrimKind="none" fixed="2" name="state" type="xs:string"/>		
+				
+                		                        </xs:sequence>
+	</xs:complexType>
+</xs:element>
+</xs:schema>

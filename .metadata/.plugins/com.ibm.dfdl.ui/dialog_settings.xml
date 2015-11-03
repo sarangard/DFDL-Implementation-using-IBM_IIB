@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="com.ibm.dfdl.launching.testParse">
+		<item value="UTF-8" key="Encoding"/>
+		<item value="true" key="SerializerInputsFromFile"/>
+		<item value="false" key="RuntimeValidation"/>
+		<item value="ieee" key="BinaryFloarRep"/>
+		<item value="bigEndian" key="ByteOrder"/>
+		<item value="true" key="ParserInputsFromFile"/>
+		<list key="SerializerInputs">
+			<item value="/SVV/fixedLength.txt"/>
+		</list>
+		<list key="ParserInputs">
+			<item value="/SVV/fixedLength.txt"/>
+			<item value="/SVV/MepsDataSet.csv"/>
+		</list>
+	</section>
+	<section name="com.ibm.dfdl.ui.DFDLEditor.outline.settings">
+		<item value="false" key="com.ibm.dfdl.internal.ui.visual.utils.outline.QuickOutlineInformationControlDIALOG_USE_PERSISTED_LOCATION"/>
+		<item value="true" key="com.ibm.dfdl.internal.ui.visual.utils.outline.QuickOutlineInformationControlDIALOG_USE_PERSISTED_SIZE"/>
+		<item value="400" key="com.ibm.dfdl.internal.ui.visual.utils.outline.QuickOutlineInformationControlDIALOG_HEIGHT"/>
+		<item value="560" key="com.ibm.dfdl.internal.ui.visual.utils.outline.QuickOutlineInformationControlDIALOG_WIDTH"/>
+	</section>
+</section>

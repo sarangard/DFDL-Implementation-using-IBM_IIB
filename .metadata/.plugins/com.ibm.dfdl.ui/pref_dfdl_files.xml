@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences>
+<preferenceForDFDLFile dfdlFileLocation="/SVV/TestSchema.xsd" didLastParseUseOutputFromUnparser="false" lastFileUsedForParse="/SVV/MepsDataSet.csv" messageRootUsedForLastParse="TestSchema"/>
+<preferenceForDFDLFile dfdlFileLocation="/SVV/MepsDataSchema.dfdl.xsd" didLastParseUseOutputFromUnparser="false" didLastUnparseUseLogicalInstance="true" lastFileUsedForParse="/SVV/MepsDataSet.csv" messageRootUsedForLastParse="MepsDataSchema" messageRootUsedForLastUnparse="MepsDataSchema"/>
+<preferenceForDFDLFile dfdlFileLocation="/SVV/fixedLengthSchema.dfdl.xsd" didLastParseUseOutputFromUnparser="false" didLastUnparseUseLogicalInstance="false" lastFileUsedForParse="/SVV/fixedLength.txt" lastFileUsedForUnparse="/SVV/fixedLength.txt" messageRootUsedForLastParse="address" messageRootUsedForLastUnparse="address"/>
+</preferences>

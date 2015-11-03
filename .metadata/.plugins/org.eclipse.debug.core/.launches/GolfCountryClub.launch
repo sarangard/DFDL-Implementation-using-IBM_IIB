@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><launchConfiguration type="com.ibm.xtt.xsl.core.launch.XSLLaunch">
+<stringAttribute key="com.ibm.debug.attr_project_name" value="XMLExamples"/>
+<stringAttribute key="com.ibm.xtt.xsl.core.attr_encoding" value="UTF-8"/>
+<booleanAttribute key="com.ibm.xtt.xsl.core.attr_encoding_override_default" value="false"/>
+<booleanAttribute key="com.ibm.xtt.xsl.core.attr_first_template_stop_option" value="true"/>
+<intAttribute key="com.ibm.xtt.xsl.core.attr_indent" value="0"/>
+<booleanAttribute key="com.ibm.xtt.xsl.core.attr_indent_override_default" value="false"/>
+<stringAttribute key="com.ibm.xtt.xsl.core.attr_initial_mode" value=""/>
+<stringAttribute key="com.ibm.xtt.xsl.core.attr_input_xml" value="C:\Users\SaiManjula\IBM\IIBT10\workspace\XMLExamples\GolfCountryClub\GolfCountryClub.xsd"/>
+<listAttribute key="com.ibm.xtt.xsl.core.attr_input_xmls"/>
+<stringAttribute key="com.ibm.xtt.xsl.core.attr_named_template" value=""/>
+<stringAttribute key="com.ibm.xtt.xsl.core.attr_output_file" value="C:/Users/SaiManjula/IBM/IIBT10/workspace/XMLExamples/GolfCountryClub/_GolfCountryClub_transform.xml"/>
+<stringAttribute key="com.ibm.xtt.xsl.core.attr_output_folder" value=""/>
+<intAttribute key="com.ibm.xtt.xsl.core.attr_output_method" value="0"/>
+<booleanAttribute key="com.ibm.xtt.xsl.core.attr_output_method_override_default" value="false"/>
+<stringAttribute key="com.ibm.xtt.xsl.core.attr_output_version" value="1.0"/>
+<stringAttribute key="com.ibm.xtt.xsl.core.attr_source_xsl" value=""/>
+<intAttribute key="com.ibm.xtt.xsl.core.attr_transform" value="0"/>
+<stringAttribute key="com.ibm.xtt.xsl.core.attr_uri_base" value=""/>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/XMLExamples/GolfCountryClub/GolfCountryClub.xsd"/>
+<listEntry value="/XMLExamples/GolfCountryClub/_GolfCountryClub_transform.xml"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+<listEntry value="1"/>
+</listAttribute>
+</launchConfiguration>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://example.com" xmlns:csv="http://www.ibm.com/dfdl/CommaSeparatedFormat" xmlns:dfdl="http://www.ogf.org/dfdl/dfdl-1.0/" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:ibmDfdlExtn="http://www.ibm.com/dfdl/extensions" xmlns:ibmSchExtn="http://www.ibm.com/schema/extensions">
+	<xsd:import namespace="http://www.ibm.com/dfdl/CommaSeparatedFormat" schemaLocation="IBMdefined/CommaSeparatedFormat.xsd"/>
+    	<xsd:annotation>
+			<xsd:appinfo source="http://www.ogf.org/dfdl/">
+				<dfdl:format documentFinalTerminatorCanBeMissing="yes" encoding="{$dfdl:encoding}" escapeSchemeRef="csv:CSVEscapeScheme" ref="csv:CommaSeparatedFormat" separatorSuppressionPolicy="trailingEmpty"/>
+			</xsd:appinfo>
+		</xsd:annotation>
+
+	<xsd:element ibmSchExtn:docRoot="true" name="MepsDataSchema">
+		<xsd:complexType>
+			<xsd:sequence dfdl:separator="" dfdl:terminator="">
+				<xsd:element dfdl:emptyValueDelimiterPolicy="none" dfdl:occursCountKind="implicit" dfdl:ref="csv:CommaSeparatedFormat" dfdl:terminator="%CR;%LF;" maxOccurs="unbounded" name="record">
+					<xsd:complexType>
+						<xsd:sequence dfdl:outputNewLine="%CR;%LF;" dfdl:terminator=""> 
+							<xsd:element dfdl:textNumberPattern="#E0" name="ASMC" type="xsd:double"/>
+							<xsd:element dfdl:textNumberPattern="#0" name="DUPERSID" type="xsd:nonNegativeInteger"/>
+							<xsd:element dfdl:textNumberPattern="#E0" name="INSCAT1" type="xsd:double"/>
+                            <xsd:element dfdl:textNumberPattern="#E0" name="RRSASMC" type="xsd:double"/>
+                            <xsd:element dfdl:textNumberPattern="#E0" name="RRSASMD" type="xsd:double"/>
+                            <xsd:element dfdl:textNumberPattern="#E0" name="RRSASPV" type="xsd:double"/>
+                            <xsd:element dfdl:terminator="" dfdl:textNumberPattern="#E0" name="RRSASUN" type="xsd:double"/>
+                        </xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>		
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>

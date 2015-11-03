@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><launchConfiguration type="com.ibm.xtt.xsl.core.launch.XSLLaunch">
+<stringAttribute key="com.ibm.debug.attr_project_name" value="SVV"/>
+<booleanAttribute key="com.ibm.xtt.xsl.core.attr_first_template_stop_option" value="true"/>
+<stringAttribute key="com.ibm.xtt.xsl.core.attr_input_xml" value="C:\Users\SaiManjula\IBM\IIBT10\workspace\SVV\fixedLength.xsd"/>
+<stringAttribute key="com.ibm.xtt.xsl.core.attr_output_file" value="C:/Users/SaiManjula/IBM/IIBT10/workspace/SVV/_fixedLength_transform.xml"/>
+<stringAttribute key="com.ibm.xtt.xsl.core.attr_source_xsl" value=""/>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/SVV/fixedLength.xsd"/>
+<listEntry value="/SVV/_fixedLength_transform.xml"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+<listEntry value="1"/>
+</listAttribute>
+</launchConfiguration>

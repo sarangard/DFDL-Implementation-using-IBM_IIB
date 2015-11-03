@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="com.ibm.etools.mft.navigator.BrokerWorkingSet.AppLib" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1445014318613_1" label="[SVV]" name="[SVV]">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/SVV" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1445014160016_0" label="Window Working Set" name="Aggregate for window 1445014160014"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1446413473000_2" label="Window Working Set" name="Aggregate for window 1446413473000"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1446510066421_3" label="Window Working Set" name="Aggregate for window 1446510066421"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1446525067681_4" label="Window Working Set" name="Aggregate for window 1446525067681"/>
+</workingSetManager>
